@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="myPage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>CustomOrders</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navBar">
+        <div id="logo">
+          <a href="myPage.html">BuildYours.com</a>
+        </div>
+        <ul>
+          <li><a href="myPage.html">Home</a></li>
+          <li><a href="myPageBuilds.html">Builds</a></li>
+          <li><a href="myPageCustom.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 id="form-title">Custom Orders</h1>
+      <div id="form">
+        <form action="">
+          <label for="fn">First Name:</label>
+          <input
+            type="text"
+            name="firstName"
+            placeholder="First Name"
+            id="fn"
+            required
+          />
+          <br />
+          <label for="ln">Last Name:</label>
+          <input
+            type="text"
+            name="lasttName"
+            placeholder="Last Name"
+            id="ln"
+            required
+          />
+          <br />
+          <label for="email">Email Address:</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="ex: jhon@gmail.com"
+            id="email"
+            required
+          />
+          <br />
+          <label for="processor"
+            ><strong>Tell us about your build</strong>
+          </label>
+          <br />
+          <input
+            type="radio"
+            name="intel-amd"
+            value="Intel"
+            id="processor"
+            required
+          />Intel
+          <br />
+          <input
+            type="radio"
+            name="intel-amd"
+            value="AMD"
+            id="processor"
+            required
+          />AMD
+          <br />
+          <label for="level"
+            ><strong>How much would you like to spend</strong></label
+          >
+          <small>(look table chart for reference)</small>
+          <br />
+          <select id="select" required>
+            <option value="">Extreme</option>
+            <option value="">high-end</option>
+            <option value="">Mid-high</option>
+            <option value="">Medium</option>
+            <option value="">Low-mid</option>
+            <option value="">Low</option>
+            <option value="">Im broke</option>
+          </select>
+          <br />
+          <button id="submit" type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="row primary">
+        <div class="column about">
+          <h3>Follow us</h3>
+          <p>
+            <i class="fa fa-map-marker" aria-hidden="true"></i> New York, NY
+            10031
+          </p>
+          <div class="social">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-twitter-square"></i>
+            <i class="fa fa-linkedin-square"></i>
+            <i class="fa fa-instagram"></i>
+          </div>
+        </div>
+
+        <div class="column link">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="myPage.html">Home</a></li>
+            <li><a href="myPageBuilds.html">Builds</a></li>
+            <li><a href="myPageCustom.html">Contacts</a></li>
+          </ul>
+        </div>
+
+        <div class="column subscribe">
+          <h3>Newsletter</h3>
+          <div>
+            <input type="email" placeholder="Your email here" />
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row copyright">
+        <div class="footer-menu">
+          <a href="">Home</a>
+          <a href="">F.A.Q</a>
+          <a href="">Cookies Policy</a>
+          <a href="">Terms Of Service</a>
+          <a href="">Support</a>
+        </div>
+        <p>Copyright &copy; 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>
